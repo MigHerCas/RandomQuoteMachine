@@ -1,6 +1,7 @@
 /* CSS */
 body {
 	width: 100%;
+	min-width: 600px;
     height: 100%;
     background: #595959;
     margin:0;
@@ -9,19 +10,22 @@ body {
 
 div#box {
 	position: relative;
-	width: 80%;
+	width: 50%;
 	border: 2px solid black;
 	border-radius: 1em;
 	margin: 20% auto;
 	padding: 3em;
+	background: #cccccc;
 
 }
 
 section#quoteContent {
 	width: 80%;
-	margin: auto auto 5em auto;
+	margin: auto auto 6em auto;
 	border: 2px solid black;
 	border-radius: 1em;
+	padding: 1em;
+	text-align: center;
 }
 
 section#quoteAuthor {
@@ -30,18 +34,28 @@ section#quoteAuthor {
 	border: 2px solid black;
 	border-radius: 1em;
 	position: absolute;
-	bottom: 2em;
+	bottom: 9em;
 	right: 2em;
+	text-align: center;
 }
 
 section#buttons {
 	width: 35%;
-	height: 3em;
+	height: 5em;
 	border: 2px solid black;
 	border-radius: 1em;
-	position: absolute;
-	bottom: 2em;
+	position: relative;
 	left: 2em;
+	
 }
+
+section#next {
+	width: 35%;
+	height: 5em;
+	border: 2px solid black;
+	border-radius: 1em;
+	position: relative;
+}
+
 
 
