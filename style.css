@@ -1,2 +1,47 @@
 /* CSS */
+body {
+	width: 100%;
+    height: 100%;
+    background: #595959;
+    margin:0;
+    padding:0;
+}
+
+div#box {
+	position: relative;
+	width: 80%;
+	border: 2px solid black;
+	border-radius: 1em;
+	margin: 20% auto;
+	padding: 3em;
+
+}
+
+section#quoteContent {
+	width: 80%;
+	margin: auto auto 5em auto;
+	border: 2px solid black;
+	border-radius: 1em;
+}
+
+section#quoteAuthor {
+	width: 35%;
+	height: 3em;
+	border: 2px solid black;
+	border-radius: 1em;
+	position: absolute;
+	bottom: 2em;
+	right: 2em;
+}
+
+section#buttons {
+	width: 35%;
+	height: 3em;
+	border: 2px solid black;
+	border-radius: 1em;
+	position: absolute;
+	bottom: 2em;
+	left: 2em;
+}
+
 
