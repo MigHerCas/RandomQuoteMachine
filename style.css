@@ -20,15 +20,29 @@ div#box {
 }
 
 section#quoteContent {
-	width: 80%;
-	margin: auto auto 6em auto;
+	width: 90%;
+	margin: auto auto 3em auto;
 	border: 2px solid black;
 	border-radius: 1em;
 	padding: 1em;
 	text-align: center;
+	position: relative;
 }
 
-section#quoteAuthor {
+.text {
+	border: 2px solid red;
+	border-radius: 1em;
+	display: block;
+	margin-bottom: 2em;
+}
+
+p#qAuthor {
+	width: 40%;
+	margin-left: 60%;
+}
+
+
+/*section#quoteAuthor {
 	width: 35%;
 	height: 3em;
 	border: 2px solid black;
@@ -37,15 +51,15 @@ section#quoteAuthor {
 	bottom: 9em;
 	right: 2em;
 	text-align: center;
-}
+}*/
 
 section#buttons {
-	width: 35%;
+	width: 80%;
 	height: 5em;
 	border: 2px solid black;
 	border-radius: 1em;
 	position: relative;
-	left: 2em;
+	margin: auto;
 	
 }
 
