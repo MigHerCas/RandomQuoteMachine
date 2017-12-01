@@ -18,7 +18,7 @@ div#box {
 	width: 50%;
 	border: 2px solid black;
 	border-radius: 1em;
-	margin: 20% auto;
+	margin: 10% auto;
 	padding: 3em;
 	background: #cccccc;
 
@@ -38,7 +38,7 @@ section#quoteContent {
 	border: 2px solid red;
 	border-radius: 1em;
 	display: block;
-	font-family: 'Nunito', serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 200%;
 }
 
@@ -47,17 +47,6 @@ p#qAuthor {
 	margin-left: 60%;
 }
 
-/*section#quoteAuthor {
-	width: 35%;
-	height: 3em;
-	border: 2px solid black;
-	border-radius: 1em;
-	position: absolute;
-	bottom: 9em;
-	right: 2em;
-	text-align: center;
-}*/
-
 section#buttons {
 	width: 90%;
 	height: 5em;
@@ -65,16 +54,14 @@ section#buttons {
 	border-radius: 1em;
 	position: relative;
 	margin: auto;
-	
+	padding: 1em;
 }
 
-section#next {
-	width: 35%;
-	height: 5em;
-	border: 2px solid black;
-	border-radius: 1em;
-	position: relative;
+button#next {
+	position: absolute;
+	right: 0;
 }
+
 
 
 
