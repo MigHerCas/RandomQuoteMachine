@@ -6,7 +6,7 @@
 
 body {
 	width: 100%;
-	min-width: 600px;
+	min-width: 900px;
     height: 100%;
     background: #595959;
     margin:0;
@@ -18,7 +18,7 @@ div#box {
 	width: 50%;
 	border: 2px solid black;
 	border-radius: 1em;
-	margin: 10% auto;
+	margin: 1em auto;
 	padding: 3em;
 	background: #cccccc;
 
@@ -59,7 +59,12 @@ section#buttons {
 
 button#next {
 	position: absolute;
-	right: 0;
+	right: 1em;
+}
+
+button.btn {
+	border-radius: 25%;
+	width: 16%;
 }
 
 
