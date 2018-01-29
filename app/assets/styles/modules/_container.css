@@ -1,21 +1,27 @@
 .container {	
+	min-width: 600px;
 	padding: 2rem;
 	border-radius: 1rem;
 	position: absolute;
 	width: 60%;
-	top: 50%;
+	top: 40%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -60%);
 	background-color: #FFF;
+	margin-top: 5rem;
 
 	&__quote {
 		font-size: 160%;
+		margin-left: 3rem;
+		margin-right: 3rem;
 	}
 
 	&__author {
 		font-size: 120%;
 		font-style: italic;
 		text-align: right;
+		margin-left: 3rem;
+		margin-right: 3rem;
 	}
 }
 
