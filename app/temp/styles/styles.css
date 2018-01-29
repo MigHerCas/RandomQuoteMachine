@@ -465,6 +465,7 @@ body {
 	min-width: 600px;
 	padding: 2rem;
 	border-radius: 1rem;
+	border: 2px solid #FFF;
 	position: absolute;
 	width: 60%;
 	top: 40%;
